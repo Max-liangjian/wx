@@ -1,0 +1,53 @@
+{
+  "pages":[
+    "pages/index/index",
+    
+    "pages/movie/movie",
+       
+    "pages/logs/logs",
+    "pages/mucis/music"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "小程序测试",
+    "navigationBarTextStyle":"white",
+    "backgroundColor":"#ffcc00",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color":"green",
+    "selectedColor": "#7dc5eb",
+    "backgroundColor": "yellow",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/home.png",
+        "selectedIconPath": "icons/home_selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "icons/log.png",
+        "selectedIconPath": "icons/log_selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "icons/log.png",
+        "selectedIconPath": "icons/log_selected.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "icons/log.png",
+        "selectedIconPath": "icons/log_selected.png"
+      }
+    ]
+  },
+  "debug":true
+}
